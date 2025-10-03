@@ -52,10 +52,10 @@ Nota: Certifique-se de revisar os arquivos .tf antes de aplicar, para garantir q
 ## 📂 Estrutura do projeto
 
 terraform_aws_lab/
-├─ backend.tf            Configuração do backend remoto (ex: S3)
-├─ ec2.tf                Definição da instância EC2
-├─ ecr.tf                Definição do repositório ECR
-├─ provider.tf           Configuração do provider AWS
+├─ backend.tf            
+├─ ec2.tf               
+├─ ecr.tf                
+├─ provider.tf           
 
 
 
