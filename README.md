@@ -6,17 +6,13 @@ Este repositório contém exemplos práticos de infraestrutura como código (IaC
 
 ## 🛠️ Estrutura do Projeto
 ```
-O projeto está organizado da seguinte forma:
+terraform_aws_lab/
+├── provider.tf       # Configurações do provedor AWS e backend remoto
+├── ec2.tf            # Provisionamento de instâncias EC2
+├── ecr.tf            # Configuração de repositórios ECR
+├── backend.tf        # Configuração do backend remoto para o estado do Terraform
+└── README.md         # Este arquivo com informações sobre o projeto
 
-provider.tf: Configurações do provedor AWS e backend remoto.
-
-ec2.tf: Provisionamento de instâncias EC2.
-
-ecr.tf: Configuração de repositórios ECR.
-
-backend.tf: Configuração do backend remoto para o estado do Terraform.
-
-README.md: Este arquivo com informações sobre o projeto.
 ```
 ## ✅ Requisitos
 
