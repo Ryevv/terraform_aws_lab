@@ -29,22 +29,22 @@ O objetivo é demonstrar boas práticas de **Infraestrutura como Código (IaC)**
 
 ## Inicialize o Terraform:
 
-```bash
+
 terraform init
 
 
 ## Planeje o deploy:
-```bash
+
 terraform plan
 
 
 ## Aplique as configurações:
-```bash
+
 terraform apply
 
 
 ## Para destruir os recursos:
-```bash
+
 terraform destroy
 
 
