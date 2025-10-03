@@ -27,22 +27,22 @@ O objetivo é demonstrar boas práticas de **Infraestrutura como Código (IaC)**
    cd terraform_aws_lab
 
 
-# Inicialize o Terraform:
+## Inicialize o Terraform:
 
 terraform init
 
 
-# Planeje o deploy:
+## Planeje o deploy:
 
 terraform plan
 
 
-# Aplique as configurações:
+## Aplique as configurações:
 
 terraform apply
 
 
-# Para destruir os recursos:
+## Para destruir os recursos:
 
 terraform destroy
 
@@ -52,10 +52,10 @@ Nota: Certifique-se de revisar os arquivos .tf antes de aplicar, para garantir q
 ## 📂 Estrutura do projeto
 
 terraform_aws_lab/
-├─ backend.tf           # Configuração do backend remoto (ex: S3)
-├─ ec2.tf               # Definição da instância EC2
-├─ ecr.tf               # Definição do repositório ECR
-├─ provider.tf          # Configuração do provider AWS
+├─ backend.tf            Configuração do backend remoto (ex: S3)
+├─ ec2.tf                Definição da instância EC2
+├─ ecr.tf                Definição do repositório ECR
+├─ provider.tf           Configuração do provider AWS
 
 
 
