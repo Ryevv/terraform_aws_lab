@@ -22,7 +22,7 @@ O objetivo é demonstrar boas práticas de **Infraestrutura como Código (IaC)**
 
 1. Clone o repositório:
 
-   ```bash
+  ```bash
    git clone https://github.com/Ryevv/terraform_aws_lab.git
    cd terraform_aws_lab
 
