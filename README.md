@@ -49,16 +49,7 @@ terraform apply
 ```
 terraform destroy
 ```
-## 📂 Detalhes dos Arquivos
-```
-provider.tf: Define o provedor AWS e configura o backend remoto para armazenar o estado do Terraform.
 
-ec2.tf: Cria uma instância EC2 com configurações básicas.
-
-ecr.tf: Configura um repositório ECR para armazenar imagens Docker.
-
-backend.tf: Configura o backend remoto para o estado do Terraform, garantindo consistência em ambientes colaborativos.
-```
 ## 📚 Recursos Adicionais
 
 Documentação Oficial do Terraform
