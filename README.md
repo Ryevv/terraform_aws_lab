@@ -1,60 +1,84 @@
-# terraform_aws_lab
+# Laboratório DevOps com Terraform para AWS
 
-Laboratório DevOps com Terraform na AWS
+🚀 Visão Geral
 
-## 🚀 Descrição
+Este repositório contém exemplos práticos de infraestrutura como código (IaC) utilizando o Terraform para provisionar recursos na AWS. Ideal para quem deseja aprender ou testar práticas DevOps em um ambiente controlado e escalável.
 
-Este repositório contém exemplos práticos de como provisionar recursos na AWS utilizando **Terraform**, incluindo:
+🛠️ Estrutura do Projeto
 
-- Instância **EC2**
-- Repositório **ECR**
-- **Security Groups**
-- **IAM Roles**
-- **Key Pair**
+O projeto está organizado da seguinte forma:
 
-O objetivo é demonstrar boas práticas de **Infraestrutura como Código (IaC)**, promovendo automação, segurança e reusabilidade.
+provider.tf: Configurações do provedor AWS e backend remoto.
 
----
+ec2.tf: Provisionamento de instâncias EC2.
 
-## 🛠️ Pré-requisitos
+ecr.tf: Configuração de repositórios ECR.
 
-- [Terraform](https://www.terraform.io/downloads.html) versão 1.0 ou superior  
-- Conta na AWS com permissões adequadas  
-- Configuração do AWS CLI ou variáveis de ambiente para autenticação
+backend.tf: Configuração do backend remoto para o estado do Terraform.
 
----
+README.md: Este arquivo com informações sobre o projeto.
 
-# terraform_aws_lab
+✅ Requisitos
 
-## 🔧 Comandos para rodar o projeto
+Terraform 1.0 ou superior
 
-Todos os comandos necessários para usar o Terraform neste projeto podem ser executados juntos neste bloco:
+Conta na AWS com permissões adequadas
 
-```bash
-# Clonar o repositório
+Credenciais configuradas via AWS CLI ou variáveis de ambiente
+
+🚀 Como Usar
+
+Clone este repositório:
+
 git clone https://github.com/Ryevv/terraform_aws_lab.git
 cd terraform_aws_lab
 
-# Inicializar o Terraform
+
+Inicialize o Terraform:
+
 terraform init
 
-# Planejar o deploy
+
+Revise o plano de execução:
+
 terraform plan
 
-# Aplicar as configurações
+
+Aplique as configurações:
+
 terraform apply
 
-# Para destruir os recursos
+
+Para destruir os recursos provisionados:
+
 terraform destroy
 
-Estrutura do projeto
-terraform_aws_lab/
-├── backend.tf           # Configuração do backend remoto (ex: S3)
-├── ec2.tf               # Definição da instância EC2
-├── ecr.tf               # Definição do repositório ECR
-├── provider.tf          # Configuração do provider AWS
+📂 Detalhes dos Arquivos
 
+provider.tf: Define o provedor AWS e configura o backend remoto para armazenar o estado do Terraform.
 
-📢 Contribuições
+ec2.tf: Cria uma instância EC2 com configurações básicas.
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+ecr.tf: Configura um repositório ECR para armazenar imagens Docker.
+
+backend.tf: Configura o backend remoto para o estado do Terraform, garantindo consistência em ambientes colaborativos.
+
+📚 Recursos Adicionais
+
+Documentação Oficial do Terraform
+
+AWS Provider Documentation
+
+📌 Contribuições
+
+Contribuições são bem-vindas! Para contribuir:
+
+Faça um fork deste repositório.
+
+Crie uma branch para sua feature (git checkout -b feature/nova-feature).
+
+Commit suas alterações (git commit -am 'Adiciona nova feature').
+
+Push para a branch (git push origin feature/nova-feature).
+
+Abra um Pull Request.
