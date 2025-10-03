@@ -77,14 +77,6 @@ Este projeto está licenciado sob a MIT License
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
 
 
----
-
-## ✅ Dicas adicionais
-
-- **Documentação clara:** Certifique-se de que cada módulo ou recurso tenha comentários explicativos sobre sua finalidade e uso.
-- **Modularização:** Considere dividir configurações complexas em módulos reutilizáveis para promover a reutilização de código.
-- **Variáveis e outputs:** Utilize variáveis para parametrizar configurações e outputs para fornecer informações úteis após o deploy.
-
 Se desejar, posso auxiliá-lo na criação de exemplos práticos ou na implementação de módulos reutilizáveis para aprimorar ainda mais seu laboratório DevOps. Gostaria de seguir por esse caminho?
 ::contentReference[oaicite:0]{index=0}
  
