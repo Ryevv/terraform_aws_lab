@@ -29,28 +29,29 @@ O objetivo é demonstrar boas práticas de **Infraestrutura como Código (IaC)**
 
 ## Inicialize o Terraform:
 
+```bash
 terraform init
 
 
 ## Planeje o deploy:
-
+```bash
 terraform plan
 
 
 ## Aplique as configurações:
-
+```bash
 terraform apply
 
 
 ## Para destruir os recursos:
-
+```bash
 terraform destroy
 
 
 Nota: Certifique-se de revisar os arquivos .tf antes de aplicar, para garantir que todas as configurações atendem às suas necessidades.
 
 ## 📂 Estrutura do projeto
-
+```bash
 terraform_aws_lab/
 ├─ backend.tf            
 ├─ ec2.tf               
