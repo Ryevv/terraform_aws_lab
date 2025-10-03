@@ -1,10 +1,10 @@
 # Laboratório DevOps com Terraform para AWS
 
-🚀 Visão Geral
+## 🚀 Visão Geral
 
 Este repositório contém exemplos práticos de infraestrutura como código (IaC) utilizando o Terraform para provisionar recursos na AWS. Ideal para quem deseja aprender ou testar práticas DevOps em um ambiente controlado e escalável.
 
-🛠️ Estrutura do Projeto
+## 🛠️ Estrutura do Projeto
 
 O projeto está organizado da seguinte forma:
 
@@ -34,25 +34,25 @@ git clone https://github.com/Ryevv/terraform_aws_lab.git
 cd terraform_aws_lab
 
 
-Inicialize o Terraform:
-
+## Inicialize o Terraform:
+```
 terraform init
+```
 
-
-Revise o plano de execução:
-
+## Revise o plano de execução:
+```
 terraform plan
+```
 
-
-Aplique as configurações:
-
+## Aplique as configurações:
+```
 terraform apply
+```
 
-
-Para destruir os recursos provisionados:
-
+## Para destruir os recursos provisionados:
+```
 terraform destroy
-
+```
 📂 Detalhes dos Arquivos
 
 provider.tf: Define o provedor AWS e configura o backend remoto para armazenar o estado do Terraform.
@@ -63,13 +63,13 @@ ecr.tf: Configura um repositório ECR para armazenar imagens Docker.
 
 backend.tf: Configura o backend remoto para o estado do Terraform, garantindo consistência em ambientes colaborativos.
 
-📚 Recursos Adicionais
+## 📚 Recursos Adicionais
 
 Documentação Oficial do Terraform
 
 AWS Provider Documentation
 
-📌 Contribuições
+## 📌 Contribuições
 
 Contribuições são bem-vindas! Para contribuir:
 
