@@ -5,7 +5,7 @@
 Este repositório contém exemplos práticos de infraestrutura como código (IaC) utilizando o Terraform para provisionar recursos na AWS. Ideal para quem deseja aprender ou testar práticas DevOps em um ambiente controlado e escalável.
 
 ## 🛠️ Estrutura do Projeto
-
+```
 O projeto está organizado da seguinte forma:
 
 provider.tf: Configurações do provedor AWS e backend remoto.
@@ -17,8 +17,8 @@ ecr.tf: Configuração de repositórios ECR.
 backend.tf: Configuração do backend remoto para o estado do Terraform.
 
 README.md: Este arquivo com informações sobre o projeto.
-
-✅ Requisitos
+```
+## ✅ Requisitos
 
 Terraform 1.0 ou superior
 
@@ -26,7 +26,7 @@ Conta na AWS com permissões adequadas
 
 Credenciais configuradas via AWS CLI ou variáveis de ambiente
 
-🚀 Como Usar
+## 🚀 Como Usar
 
 Clone este repositório:
 
@@ -53,8 +53,8 @@ terraform apply
 ```
 terraform destroy
 ```
-📂 Detalhes dos Arquivos
-
+## 📂 Detalhes dos Arquivos
+```
 provider.tf: Define o provedor AWS e configura o backend remoto para armazenar o estado do Terraform.
 
 ec2.tf: Cria uma instância EC2 com configurações básicas.
@@ -62,7 +62,7 @@ ec2.tf: Cria uma instância EC2 com configurações básicas.
 ecr.tf: Configura um repositório ECR para armazenar imagens Docker.
 
 backend.tf: Configura o backend remoto para o estado do Terraform, garantindo consistência em ambientes colaborativos.
-
+```
 ## 📚 Recursos Adicionais
 
 Documentação Oficial do Terraform
