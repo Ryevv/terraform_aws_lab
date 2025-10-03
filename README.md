@@ -27,22 +27,22 @@ O objetivo é demonstrar boas práticas de **Infraestrutura como Código (IaC)**
    cd terraform_aws_lab
 
 
-Inicialize o Terraform:
+# Inicialize o Terraform:
 
 terraform init
 
 
-Planeje o deploy:
+# Planeje o deploy:
 
 terraform plan
 
 
-Aplique as configurações:
+# Aplique as configurações:
 
 terraform apply
 
 
-Para destruir os recursos:
+# Para destruir os recursos:
 
 terraform destroy
 
@@ -55,12 +55,6 @@ terraform_aws_lab/
 ├── ec2.tf               # Definição da instância EC2
 ├── ecr.tf               # Definição do repositório ECR
 ├── provider.tf          # Configuração do provider AWS
-├── security_groups.tf   # Definição dos Security Groups
-├── iam_roles.tf         # Definição dos IAM Roles
-├── key_pair.tf          # Definição da Key Pair
-├── variables.tf         # Definição de variáveis
-├── outputs.tf           # Definição de outputs
-└── .gitignore           # Arquivos a serem ignorados pelo Git
 
 🔐 Segurança
 
