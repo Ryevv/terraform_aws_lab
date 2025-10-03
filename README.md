@@ -49,12 +49,15 @@ terraform destroy
 
 Nota: Certifique-se de revisar os arquivos .tf antes de aplicar, para garantir que todas as configurações atendem às suas necessidades.
 
-📂 Estrutura do projeto
+## 📂 Estrutura do projeto
+
 terraform_aws_lab/
-├── backend.tf           # Configuração do backend remoto (ex: S3)
-├── ec2.tf               # Definição da instância EC2
-├── ecr.tf               # Definição do repositório ECR
-├── provider.tf          # Configuração do provider AWS
+├─ backend.tf           # Configuração do backend remoto (ex: S3)
+├─ ec2.tf               # Definição da instância EC2
+├─ ecr.tf               # Definição do repositório ECR
+├─ provider.tf          # Configuração do provider AWS
+
+
 
 🔐 Segurança
 
@@ -67,16 +70,8 @@ Utilize o arquivo .gitignore para evitar o versionamento de arquivos sensíveis,
 *.pem
 .terraform/
 
-📄 Licença
-
-Este projeto está licenciado sob a MIT License
-.
-
 📢 Contribuições
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
 
-
-Se desejar, posso auxiliá-lo na criação de exemplos práticos ou na implementação de módulos reutilizáveis para aprimorar ainda mais seu laboratório DevOps. Gostaria de seguir por esse caminho?
-::contentReference[oaicite:0]{index=0}
  
